@@ -1,0 +1,33 @@
+# Go
+*.o
+*.a
+*.so
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+*.swp
+*.swo
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+build/
+dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db

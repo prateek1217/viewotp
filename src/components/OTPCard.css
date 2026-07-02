@@ -1,0 +1,152 @@
+.otp-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  position: relative;
+  overflow: hidden;
+}
+
+.otp-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+}
+
+.otp-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.otp-card.expired {
+  opacity: 0.6;
+  background: #f5f5f5;
+}
+
+.otp-card.expired::before {
+  background: #ccc;
+}
+
+.otp-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.otp-card-header h3 {
+  margin: 0;
+  color: #333;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+
+.expiry-badge {
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.expiry-badge.active {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.expiry-badge.expired {
+  background: #ff4444;
+  color: white;
+}
+
+.otp-code {
+  background: #f8f8f8;
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.otp-display {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Courier New', monospace;
+  color: #667eea;
+  letter-spacing: 4px;
+  flex: 1;
+  text-align: center;
+}
+
+.copy-btn {
+  padding: 0.6rem 1rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.copy-btn:hover:not(:disabled) {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.copy-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.otp-card-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.otp-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.meta-label {
+  font-weight: 600;
+  color: #555;
+}
+
+.meta-value {
+  color: #999;
+}
+
+@media (max-width: 480px) {
+  .otp-card {
+    padding: 1rem;
+  }
+
+  .otp-code {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .copy-btn {
+    width: 100%;
+  }
+
+  .otp-display {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+  }
+}
