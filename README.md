@@ -1,3 +1,7 @@
+<img width="821" height="409" alt="image" src="https://github.com/user-attachments/assets/e2044db4-b775-4424-b75e-f9e3b52b8630" />
+
+
+
 # 🔐 Shared OTP Dashboard
 
 A centralized dashboard for teams to view and manage OTP codes from shared accounts. Perfect for startups and teams using collective subscriptions.
