@@ -268,17 +268,5 @@ MIT - Feel free to use, modify, and share!
 
 ---
 
-## 🎉 Share Your Success!
-
-Built this? Share it on Twitter!
-
-**#ShareTheOTP #StartupLife #OpenSource**
-
-- Show your workspace setup
-- Help other teams solve the OTP problem
-- Star this repo if it helped you!
-
-
-
 
 **Developed by Prateek Khandelwal**
