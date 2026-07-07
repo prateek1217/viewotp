@@ -266,9 +266,6 @@ Found a bug or have a feature idea?
 2. Create a feature branch
 3. Submit a pull request
 
-## 📝 License
-
-MIT - Feel free to use, modify, and share!
 
 ---
 
