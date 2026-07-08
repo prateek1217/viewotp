@@ -4,11 +4,11 @@
 
 # 🔐 Shared OTP Dashboard
 
-A centralized dashboard for teams to view and manage OTP codes from shared accounts. Perfect for startups and teams using collective subscriptions.
+A centralized dashboard for users to view and manage OTP codes from shared gmail accounts. Perfect for user's subscriptions sharings.
 
 ## 🎯 Problem It Solves
 
-When a team shares accounts (AWS, social media, testing services, etc.), OTP codes get sent to the account owner's email. If the owner is offline, other team members are stuck waiting.
+When you shares email accounts (AWS, social media, testing services, etc.), OTP codes get sent to the account owner's email. If the owner is offline, other team members are stuck waiting.
 
 **Solution:** This dashboard automatically extracts OTPs from Gmail and displays them in real-time to all workspace members. No more "Can someone send the OTP?" messages! 📱✅
 
